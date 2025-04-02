@@ -8,13 +8,10 @@
     <script src="js/bootstrap.bundle.js"></script>
     <style>
         body {
-            background: url('https://picsum.photos/1920/1080?random=6') no-repeat center center fixed;
-            background-size: cover;
+            background-color: #f8f9fa;
         }
         .content-wrapper {
-            background-color: rgba(255, 255, 255, 0.9);
-            min-height: 100vh;
-            padding-top: 80px;
+            background-color: white;
         }
         .product-card {
             background-color: white;
@@ -43,6 +40,16 @@
     </style>
 </head>
 <body>
+    <section class="hero-section" style="height: 60vh; background: url('https://picsum.photos/1920/1080?random=6') no-repeat center center; background-size: cover; position: relative;">
+        <div class="hero-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.4);"></div>
+        <div class="container h-100 d-flex align-items-center" style="position: relative; z-index: 2;">
+            <div class="text-white">
+                <h1 class="display-3 fw-bold">Quality Construction Materials</h1>
+                <p class="lead">Building your dreams with premium products</p>
+            </div>
+        </div>
+    </section>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">BestPal Construction</a>
